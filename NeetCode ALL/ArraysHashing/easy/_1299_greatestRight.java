@@ -1,3 +1,4 @@
+package easy;
 // m1. time n2 space n
 class Solution {
     public int[] replaceElements(int[] arr) {
