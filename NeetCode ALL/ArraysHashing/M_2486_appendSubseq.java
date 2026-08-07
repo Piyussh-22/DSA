@@ -1,3 +1,4 @@
+package ArraysHashing;
 class Solution {
     public int appendCharacters(String s, String t) {
         int index = 0;

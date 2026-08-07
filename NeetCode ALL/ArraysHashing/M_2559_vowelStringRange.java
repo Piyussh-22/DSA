@@ -1,3 +1,4 @@
+package ArraysHashing;
 // M1 (Brute Force)
 // Time: O(n + q * k), Worst Case: O(n * q)
 // Space: O(n)

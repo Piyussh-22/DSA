@@ -1,3 +1,4 @@
+package ArraysHashing;
 class Solution {
     public int smallestBalancedIndex(int[] nums) {
         double sum = 0;

@@ -1,3 +1,6 @@
+package ArraysHashing;
+import java.util.*;
+
 class Solution {
     public String frequencySort(String s) {
         Map<Character,Integer> freq = new HashMap<>();

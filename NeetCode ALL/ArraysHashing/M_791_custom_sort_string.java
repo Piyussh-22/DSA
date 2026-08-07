@@ -1,3 +1,4 @@
+package ArraysHashing;
 class Solution {
     public String customSortString(String order, String s) {
         // count freq of all char of s.
