@@ -1,0 +1,90 @@
+CLASS
+A class is a blueprint/template/logical definition that describes
+the data and behavior that objects of that class will have.
+
+OBJECT
+An object is a runtime instance of a class.
+
+INSTANCE
+An instance is a particular object created from a class.
+
+Example:
+
+class Student {
+    int rno;
+    String name;
+    float marks;
+}
+
+Student s1 = new Student();
+
+Student → class
+s1      → reference variable
+new Student() → creates an object
+object   → exists at runtime, typically in heap memory
+
+
+INSTANCE VARIABLES
+Non-static fields declared in a class.
+Each object gets its own copy.
+
+class Student {
+    int rno;
+    String name;
+    float marks;
+}
+
+Each Student object has its own:
+rno
+name
+marks
+
+
+REFERENCE VARIABLE
+
+Student s1;
+
+s1 is a reference variable.
+Initially:
+
+s1 → null
+
+
+Student s1 = new Student();
+
+Stack/local variable:
+s1
+ ↓
+reference
+ ↓
+Heap:
+Student object
+rno = 0
+name = null
+marks = 0.0
+
+
+NEW OPERATOR
+
+new Student();
+
+At runtime, new:
+1. creates an object
+2. initializes its fields with default values
+3. returns a reference to that object
+
+That reference is assigned to s1.
+
+
+COMPILE TIME vs RUNTIME
+
+Student s1 = new Student();
+
+Student s1
+→ compiler understands/checks the type and declaration.
+
+new Student()
+→ JVM creates the object at runtime.
+
+s1
+→ stores the reference to that object.
